@@ -281,13 +281,16 @@ img {
 
 .section-three {
   padding-bottom: 120px;
+display: none;
 }
 .container-three-item {
   display: flex;
   gap: 24px;
+
 }
 .container-three-img {
   width: calc((100% - 24px * 2) / 3);
+ 
 }
 .section-title {
   color: var(--navyblue, #2e2f42);
@@ -301,6 +304,7 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
   text-align: center;
+ 
 }
 .section-four {
   background: var(--cloud, #f4f4fd);
