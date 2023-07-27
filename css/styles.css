@@ -59,7 +59,7 @@ img {
   width: 100%;
   margin: 0 auto;
   /* padding: 0 15px 0 15px; */
-  padding: 0 16px 0 16px;
+  padding: 0 16px;
   border: 1px solid red;
 }
 .header {
@@ -437,15 +437,22 @@ min-height: 56px;
 .footer {
   background: var(--navyblue, #2e2f42);
   color: var(--cloud, #f4f4fd);
-  padding: 100px 0;
+  padding: 97px 0 96px 0;
+  /* padding: 100px 0; */
 }
 .container-footer {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
+
+  /* align-items: baseline;
+  justify-content: space-between; */
 }
 .footer-logo {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  /* display: inline-block; */
   color: var(--iris, #4d5ae5);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -453,15 +460,19 @@ min-height: 56px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  margin: 0 auto;
+  /* margin-right: 76px; */
 }
 .footer-block {
-  margin-bottom: 16px;
+  margin-bottom: 17px;
+  /* margin-bottom: 16px; */
   display: flex;
 }
 .footer-text {
-  width: 264px;
-  margin-right: 120px;
+  width: 268px;
+  /* width: 264px; */
+  gap: 17px;
+  /* margin-right: 120px; */
 }
 .footter-logo-accent {
   color: var(--cloud, #f4f4fd);
@@ -475,11 +486,17 @@ min-height: 56px;
   display: inline-block;
 }
 .footer-paragraf {
-  font-weight: 500;
+  /* font-weight: 500; */
+}
+.footer-social-block{
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
 }
 .social-text {
   font-weight: 500;
   color: var(--white);
+  text-align: center;
   margin-bottom: 16px;
 }
 .footer-icons-list {
@@ -513,7 +530,8 @@ min-height: 56px;
   height: 24px;
 }
 .footer-form-container {
-  margin-left: 80px;
+  width: 100%;
+  /* margin-left: 80px; */
 }
 .footer-form-title {
   color: var(--white);
@@ -523,13 +541,17 @@ min-height: 56px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  text-align: center;
 }
 .footer-form {
   display: flex;
+ flex-direction: column;
   gap: 24px;
 }
+
 .footer-input {
-  width: 264px;
+  width: 100%;
+  /* width: 264px; */
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -542,7 +564,9 @@ min-height: 56px;
   color: #ffffff;
 }
 .footer-button {
-  min-width: 165px;
+  padding: 0 24px;
+  max-width: 165px;
+  /* min-width: 165px; */
   height: 40px;
   display: flex;
   justify-content: center;
@@ -558,6 +582,7 @@ min-height: 56px;
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+margin: 0 auto;
 }
 
 .footer-button:hover,
