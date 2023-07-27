@@ -5,11 +5,45 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 736px;
+    .section-two{
+
+    }
+  
+    .container {
+max-width: 736px;
+
   }
+
+  .container-sec-two {
+
+   
+  }
+  .container-section-two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 0px;
+    
+
+  }
+
+.section-two-item{
+  /* width: 100%; */
+  width: calc((100% - 0px * 0) / 2);
+}
+.sectiontwo-icon-block{
+
+}
+.section2-icon{
+
+}
+.section-title-item{
+
+}
+.paragraph-style{
+
 }
 
+}
 @media screen and (min-width: 1188px) {
     .container {max-width: 1158px;
   }

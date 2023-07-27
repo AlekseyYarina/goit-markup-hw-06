@@ -248,7 +248,7 @@ img {
 }
 .container-section-two {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 72px;
   /* gap: 24px; */
 }
@@ -268,8 +268,8 @@ img {
   justify-content: center; */
 }
 .section2-icon {
-  height: 64px;
-  width: 64px;
+  /* height: 64px;
+  width: 64px; */
 }
 .section-title-item {
   color: var(--navyblue, #2e2f42);
