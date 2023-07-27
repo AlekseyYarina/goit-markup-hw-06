@@ -56,10 +56,10 @@ img {
 }
 .container {
   width: 100%;
-   margin: 0 auto;
+  margin: 0 auto;
   /* padding: 0 15px 0 15px; */
   padding: 0 16px 0 16px;
-  border: 1px solid red ;
+  border: 1px solid red;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -243,59 +243,40 @@ img {
 }
 .container-sec-two {
   padding: 96px 16px;
-  /* padding: 120px 0; */
- 
 }
 .container-section-two {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
-  /* gap: 24px; */
 }
 .section-two-item {
-  /* width: 100%; */
-  /* width: calc((100% - 24px * 3) / 4); */
 }
 .sectiontwo-icon-block {
   display: none;
-  /* width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  background: var(--cloud, #f4f4fd);
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 .section2-icon {
-  /* height: 64px;
-  width: 64px; */
 }
 .section-title-item {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-    font-size: 36px;
-  /* font-size: 20px; */
+  font-size: 36px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
-  /* font-weight: 500; */
   line-height: 1.11;
-  /* line-height: 1.2; */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  /* margin-bottom: 8px; */
 }
 .paragraph-style {
   align-self: stretch;
   color: var(--slate, #434455);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.02em;
-margin-top: 8px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 
 .section-three {
@@ -507,39 +488,39 @@ margin-top: 8px;
   width: 24px;
   height: 24px;
 }
-.footer-form-container{
+.footer-form-container {
   margin-left: 80px;
 }
-.footer-form-title{
+.footer-form-title {
   color: var(--white);
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5em;
-letter-spacing:0.02em;
-margin-bottom: 16px; 
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
-.footer-form{
-  display: flex; 
-  gap:24px;
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
-.footer-input{
-  width: 264px; 
+.footer-input {
+  width: 264px;
   height: 40px;
-  border: 1px solid #ffffff; 
+  border: 1px solid #ffffff;
   background-color: transparent;
-  font-size: 12px; 
+  font-size: 12px;
   line-height: 1.5;
-  letter-spacing: 0.04em; 
+  letter-spacing: 0.04em;
   padding-left: 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
 }
-.footer-button{
+.footer-button {
   min-width: 165px;
   height: 40px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
@@ -549,8 +530,8 @@ margin-bottom: 16px;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color:var(--iris);
-  border: none; 
+  background-color: var(--iris);
+  border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -564,7 +545,7 @@ margin-bottom: 16px;
   cursor: pointer;
   border: 1px solid transparent;
 }
-.footer-button-icon{
+.footer-button-icon {
   margin-left: 16px;
   fill: var(--white);
 }
@@ -788,7 +769,7 @@ margin-bottom: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.container-form:focus-within .modal-input-icon{
+.container-form:focus-within .modal-input-icon {
   fill: var(--iris);
 }
 .container-form-comment {
@@ -814,11 +795,11 @@ margin-bottom: 16px;
 }
 
 .modal-textarea::placeholder {
-  color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+  color: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
 }
 .modal-chekbox {
   margin-bottom: 24px;
-  }
+}
 .modal-chekbox-label {
   font-size: 12px;
   line-height: 1.17;
@@ -839,8 +820,8 @@ margin-bottom: 16px;
   fill: transparent;
   margin-right: 8px;
   cursor: pointer;
- }
- .modal-chekbox-input:checked + .modal-chekbox-label .chekbox-label-icon {
+}
+.modal-chekbox-input:checked + .modal-chekbox-label .chekbox-label-icon {
   border: none;
   fill: var(--cloud);
   background-color: var(--ocean);
