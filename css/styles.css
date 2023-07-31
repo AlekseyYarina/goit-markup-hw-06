@@ -58,7 +58,7 @@ img {
   width: 100%;
   margin: 0 auto;
   padding: 0 16px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -747,7 +747,6 @@ letter-spacing: 0.02em;
 .container-portfolio {
   display: flex;
   flex-direction: column;
-  /* padding: 96px 0 120px 0; */
   padding: 48px 0;
 }
 .portfolio-card {
@@ -779,7 +778,6 @@ letter-spacing: 0.02em;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  /* padding: 12px 24px; */
   padding: 8px 16px;
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),

@@ -2,7 +2,6 @@
   .container {
     max-width: 375px;
   }
-
   .mob-adress-tel {
     color: var(--iris, #4d5ae5);
     font-family: "Roboto", sans-serif;
@@ -18,7 +17,6 @@
   .container {
     max-width: 428px;
   }
-
   .section-one {
     background-image: linear-gradient(
         to bottom,
@@ -156,6 +154,25 @@
     justify-content: left;
     margin: 0;
   }
+  .container-portfolio {
+    padding: 64px 0 96px 0;
+  }
+
+.container-portfolio-button {
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+.portfolio-button {
+  padding: 12px 24px;
+}
+
+
+
+
+
+
+
 }
 @media screen and (min-width: 1158px) {
   .container {
@@ -331,6 +348,13 @@
   .footer-button {
     min-width: 165px;
   }
+  .container-portfolio {
+    padding: 100px 0 120px 0;
+  }
+  .container-portfolio-button {
+    margin-bottom: 72px;
+  }
+
   }
 
 
