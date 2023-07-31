@@ -2,6 +2,7 @@
   .container {
     max-width: 375px;
   }
+
   .mob-adress-tel {
     color: var(--iris, #4d5ae5);
     font-family: "Roboto", sans-serif;
@@ -17,28 +18,7 @@
   .container {
     max-width: 428px;
   }
-  .mob-adress-tel {
-    color: var(--iris, #4d5ae5);
-    font-size: 36px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 736px;
-  }
-  .header-menu {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-  .adress-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .menu-open-btn {
-    display: none;
-  }
+
   .section-one {
     background-image: linear-gradient(
         to bottom,
@@ -59,6 +39,52 @@
         url(../images/hero-bg-middle-2x.jpg);
     }
   }
+  .mob-adress-tel {
+    color: var(--iris, #4d5ae5);
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .header {
+    padding: 0;
+}
+  .header-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .adress-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-open-btn {
+    display: none;
+  }
+  .section-one {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-large.jpg);
+    padding: 188px 0;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-one {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-large-2x.jpg);
+    }
+  }
   .section-one-title {
     max-width: 496px;
     font-size: 56px;
@@ -77,7 +103,6 @@
   }
   .section-four > .container {
     max-width: 552px;
-    padding: 0;
   }
   .container-four-list {
     display: flex;
@@ -89,7 +114,6 @@
   }
   .section-customers > .container {
     max-width: 552px;
-    padding: 0;
   }
   .customers-icon-list {
     display: flex;
@@ -103,9 +127,9 @@
   }
   .footer > .container {
     max-width: 552px;
-    padding: 0;
   }
   .container-footer {
+    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 72px 24px;
@@ -138,7 +162,11 @@
     max-width: 1158px;
   }
   .header-navigation {
+    justify-content: flex-start;
     gap: 76px;
+  }
+  .address {
+    margin-left: auto;
   }
   .adress-list {
     display: flex;
@@ -158,32 +186,11 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
-  .section-one {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-bg-large.jpg);
-    padding: 188px 0;
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .section-one {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/hero-bg-large-2x.jpg);
-    }
-  }
   .section-one-title {
     line-height: 1.07;
     margin-bottom: 48px;
   }
-  .container-sec-two {
+  .section-two {
     padding: 120px 0;
   }
   .container-section-two {
@@ -223,11 +230,11 @@
   .paragraph-style {
     align-self: stretch;
     color: var(--slate, #434455);
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 1.5; /* 150% */
+    font-weight: 400;
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     margin-top: 8px;
   }
@@ -255,7 +262,7 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 72px;
+   margin-bottom: 72px;
     text-align: center;
   }
   .section-four > .container {
@@ -298,10 +305,11 @@
     padding: 100px 0;
   }
   .container-footer {
-    align-items: baseline;
+    display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     flex-wrap: nowrap;
-    gap: 0;
+    gap: 100px;
   }
   .footer-logo {
     display: inline-block;
@@ -312,14 +320,10 @@
   }
   .footer-text {
     min-width: 264px;
-    margin-right: 120px;
     font-weight: 400;
   }
   .footer-paragraf {
     font-weight: 500;
-  }
-  .footer-form-container {
-    margin-left: 80px;
   }
   .footer-input {
     width: 264px;
@@ -327,4 +331,6 @@
   .footer-button {
     min-width: 165px;
   }
-}
+  }
+
+
