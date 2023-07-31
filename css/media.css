@@ -162,11 +162,19 @@
   flex-wrap: nowrap;
   justify-content: center;
   margin-bottom: 64px;
+  max-width: 100%;
 }
 .portfolio-button {
   padding: 12px 24px;
 }
-
+.container-portfolio-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px 24px;
+}
+.portfolio-card {
+width: calc((100% - 24px * 1) / 2);
+}
 
 
 
@@ -354,7 +362,12 @@
   .container-portfolio-button {
     margin-bottom: 72px;
   }
-
+  .container-portfolio-list {
+    gap: 48px 24px;
+  }
+  .portfolio-card {
+  width: calc((100% - 24px * 2) / 3);
+  }
   }
 
 

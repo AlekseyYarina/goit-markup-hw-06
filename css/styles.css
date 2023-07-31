@@ -58,7 +58,7 @@ img {
   width: 100%;
   margin: 0 auto;
   padding: 0 16px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -766,6 +766,7 @@ letter-spacing: 0.02em;
   gap: 16px 24px;
   justify-content: flex-start;
   margin-bottom: 48px;
+  max-width: 320px;
 }
 .portfolio-button {
   border: 1px solid var(--cornflower, #e7e9fc);
@@ -781,9 +782,9 @@ letter-spacing: 0.02em;
   padding: 8px 16px;
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
