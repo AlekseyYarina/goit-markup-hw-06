@@ -13,6 +13,13 @@
     text-transform: capitalize;
   }
 }
+
+@media screen and (min-width: 408px){
+  .modal {
+    max-width: 408px;
+  }  
+}
+
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
